@@ -7,11 +7,7 @@ import spacy
 nlp = spacy.load("en_core_web_sm", disable=["parser", "tagger"])  
 
 class SkillExtractor:
-    """
-    Two-tier extractor:
-      - dictionary (exact / case-insensitive) matching of curated skills file
-      - plus phrase extraction (noun chunks) to catch multi-word skill mentions
-    """
+
     def __init__(self, skills_file: str):
         self.skills = self._load_skills(skills_file)
         # case-insensitive
@@ -31,9 +27,7 @@ class SkillExtractor:
         return skills
 
     def extract_from_text(self, text: str) -> Set[str]:
-        """
-        Return a set of matched skills (normalized to lower-case).
-        """
+
         if not isinstance(text, str) or not text.strip():
             return set()
 
