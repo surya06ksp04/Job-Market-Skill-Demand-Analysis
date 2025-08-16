@@ -1,0 +1,24 @@
+python
+sql
+excel
+pandas
+numpy
+tensorflow
+pytorch
+docker
+kubernetes
+aws
+azure
+react
+javascript
+java
+c++
+spark
+hadoop
+business intelligence
+tableau
+power bi
+communication
+leadership
+
+(Extend this file using domain-specific skill lists.)
