@@ -1,0 +1,4 @@
+id,title,company,industry,location,date_posted,description
+1,Data Scientist,Acme Inc,Technology,Bangalore,2024-05-10,"We are looking for Python, pandas, scikit-learn, SQL experience. Knowledge of AWS is a plus."
+2,ML Engineer,BigTech,Technology,Bangalore,2024-06-02,"Deep learning expertise (PyTorch). Docker & Kubernetes for deployment."
+3,Data Analyst,AnalyticsCo,Finance,Delhi,2024-06-15,"Strong Excel, Power BI, SQL. Good communication skills."
